@@ -9,6 +9,6 @@ saves a jpg image in the output folder.
 ## Rendered images
 
 ## Resources I used
-https://processing.org/
-https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/
-https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection
+* https://processing.org/
+* https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/
+* https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection
