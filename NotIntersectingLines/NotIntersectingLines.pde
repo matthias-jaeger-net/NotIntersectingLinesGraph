@@ -10,7 +10,7 @@
 */
 
 ArrayList<Line> graph = new ArrayList<Line>();
-final int attempts = 900000;
+final int attempts = 9000;
 final int seed = 2;
 
 void setup() {
