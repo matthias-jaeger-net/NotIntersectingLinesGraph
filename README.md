@@ -10,6 +10,12 @@ saves a jpg image in the output folder.
 
 ![NotIntersectingLinesGraph](img/cover.jpg)
 
+![NotIntersectingLinesGraph](img/seed_8_attempts_90000.jpg)
+![NotIntersectingLinesGraph](img/seed_8_attempts_90000.jpg)
+![NotIntersectingLinesGraph](img/seed_8_attempts_90000.jpg)
+![NotIntersectingLinesGraph](img/seed_8_attempts_90000.jpg)
+
+
 ## Resources I used
 * https://processing.org/
 * https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/
