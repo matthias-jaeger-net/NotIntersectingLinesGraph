@@ -8,6 +8,8 @@ saves a jpg image in the output folder.
 
 ## Rendered images
 
+![NotIntersectingLinesGraph](img/cover.jpg)
+
 ## Resources I used
 * https://processing.org/
 * https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/
