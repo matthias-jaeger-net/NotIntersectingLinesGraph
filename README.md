@@ -10,10 +10,10 @@ saves a jpg image in the output folder.
 
 ![NotIntersectingLinesGraph](img/cover.jpg)
 
-![NotIntersectingLinesGraph](img/seed_8_attempts_90000.jpg)
-![NotIntersectingLinesGraph](img/seed_8_attempts_90000.jpg)
-![NotIntersectingLinesGraph](img/seed_8_attempts_90000.jpg)
-![NotIntersectingLinesGraph](img/seed_8_attempts_90000.jpg)
+![NotIntersectingLinesGraph](img/seed_1_attempts_900000.jpg)
+![NotIntersectingLinesGraph](img/seed_2_attempts_900000.jpg)
+![NotIntersectingLinesGraph](seed_6_attempts_800.jpg)
+![NotIntersectingLinesGraph](img/seed_23_attempts_90000.jpg)
 
 
 ## Resources I used
