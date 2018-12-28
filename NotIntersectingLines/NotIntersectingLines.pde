@@ -11,10 +11,10 @@
 
 ArrayList<Line> graph = new ArrayList<Line>();
 final int attempts = 90000;
-final int seed = 12;
+final int seed = 8;
 
 void setup() {
-  size(800, 400);
+  size(600, 600);
   background(255);
   randomSeed(seed);
 
