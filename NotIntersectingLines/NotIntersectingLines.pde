@@ -14,7 +14,7 @@ final int attempts = 90000;
 final int seed = 12;
 
 void setup() {
-  size(600, 600);
+  size(800, 400);
   background(255);
   randomSeed(seed);
 
