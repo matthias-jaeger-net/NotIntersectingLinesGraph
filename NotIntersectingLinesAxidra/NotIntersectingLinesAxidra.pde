@@ -8,18 +8,15 @@
 * A graphical exploration written in the language of processing.
 * Matthias Jäger, Graz 2018
 */
-
-ArrayList<Line> graph = new ArrayList<Line>();
-final int attempts = 900;
-final int seed = 1773;
+import processing.pdf.*;
 
 void setup() {
+  ArrayList<Line> graph = new ArrayList<Line>();
+  final int attempts = 900;
+  final int seed = 1773;  
   size(800, 800);
-  background(255);
   randomSeed(seed);
-  
-  // Adding the first line 
-  //graph.add(randomLine());
+  background(255);
   
   float nn = 0;
   float nm = 0;
@@ -40,22 +37,18 @@ void setup() {
     // Only non intersecting lines get added
     if (intersections == 0) {
       graph.add(next);
-      
       nm += 0.003;
       nn += 0.01;
     }
   }
+  
+
   // Render the graph
+  beginRecord(PDF, "line"+random(1)+".pdf"); 
   for (Line l : graph) { 
     l.render();
   }
+  endRecord();
   
-  // Passepartout
-  noFill();
-  stroke(255);
-  strokeWeight(40);
-  rect(0, 0, width, height);
-  // Output
-  save("out/NotInterSect" + millis() + ".jpg");
   //exit();
 }
