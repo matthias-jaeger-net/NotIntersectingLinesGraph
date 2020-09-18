@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// Modules:
+// - Main App container
+// - User Input UX
+// - Drawing UX
+import App from './modules/App'
+import Setup from './modules/setup/Setup';
+import Draw from './modules/draw/Draw';
 
+// Render to HTML div
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App >
+      <Setup />
+      <Draw />
+    </App>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
